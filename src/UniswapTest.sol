@@ -1,4 +1,6 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.17;
+
+import "../interfaces/IERC20.sol";
 
 interface IUniswapV2Router {
     function swapExactTokensForTokens(
@@ -16,11 +18,6 @@ interface IUniswapV2Router {
         address to,
         uint deadline
     ) external returns (uint[] memory amounts);
-}
-
-
-interface IERC20 {
-    function balanceOf(address) external view returns (uint256);
 }
 
 contract UniswapTest {

@@ -11,6 +11,45 @@
     ]
   },
   "files": {
+    "interfaces/IERC20.sol": {
+      "lastModificationDate": 1663883351408,
+      "contentHash": "262d9f1c224727528a5a5d1fc18100e4",
+      "sourceName": "interfaces/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "IERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
     "lib/forge-std/lib/ds-test/src/test.sol": {
       "lastModificationDate": 1663796832970,
       "contentHash": "962996f0e05d5218857a538a62d7c47e",
@@ -492,8 +531,8 @@
       }
     },
     "src/UniswapTest.sol": {
-      "lastModificationDate": 1663882570644,
-      "contentHash": "cba838e0ee023bfd8920b2b03c3130c4",
+      "lastModificationDate": 1663883338467,
+      "contentHash": "4058b92f0c1770a4f2b39f2884efcbcd",
       "sourceName": "src/UniswapTest.sol",
       "solcConfig": {
         "settings": {
@@ -522,12 +561,11 @@
           "libraries": {}
         }
       },
-      "imports": [],
-      "versionRequirement": "^0.8.0",
+      "imports": [
+        "interfaces/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.17",
       "artifacts": {
-        "Dai": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "UniswapTest.sol/Dai.json"
-        },
         "IUniswapV2Router": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "UniswapTest.sol/IUniswapV2Router.json"
         },
@@ -585,8 +623,8 @@
       }
     },
     "test/UniswapTest.t.sol": {
-      "lastModificationDate": 1663869590619,
-      "contentHash": "1cc4b0afdc9a0acbb62279331cae9400",
+      "lastModificationDate": 1663883087166,
+      "contentHash": "c84bf7fe9891bb61ae255909103f87af",
       "sourceName": "test/UniswapTest.t.sol",
       "solcConfig": {
         "settings": {
@@ -616,6 +654,7 @@
         }
       },
       "imports": [
+        "interfaces/IERC20.sol",
         "lib/forge-std/lib/ds-test/src/test.sol",
         "lib/forge-std/src/Script.sol",
         "lib/forge-std/src/StdJson.sol",
@@ -627,9 +666,6 @@
       ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
-        "IERC20": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "UniswapTest.t.sol/IERC20.json"
-        },
         "UniswapTestTester": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "UniswapTest.t.sol/UniswapTestTester.json"
         }
