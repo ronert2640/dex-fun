@@ -1,0 +1,105 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212202f4c4dfc2379dc0cec4eaa1241fed3763dfb2696de25ee39226955a67ab2457064736f6c63430008110033",
+    "sourceMap": "26:26:8:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea26469706673582212202f4c4dfc2379dc0cec4eaa1241fed3763dfb2696de25ee39226955a67ab2457064736f6c63430008110033",
+    "sourceMap": "26:26:8:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ParaSwapTest.sol\":\"ParaSwapTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ParaSwapTest.sol\":{\"keccak256\":\"0xf94418bb6c2b587740c8ccc07e0142af7126a927dd7cb5ebb7116caa9c83c1f9\",\"urls\":[\"bzz-raw://3176dd78fdcf74cb916c886cf0d5590c402065b2a7202d06ad981fc0499350ac\",\"dweb:/ipfs/QmdQufWxEjVssAmgLXGAFX9jNoP435gD9wyGmq5dzLqWYs\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ParaSwapTest.sol": "ParaSwapTest"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/ParaSwapTest.sol": {
+        "keccak256": "0xf94418bb6c2b587740c8ccc07e0142af7126a927dd7cb5ebb7116caa9c83c1f9",
+        "urls": [
+          "bzz-raw://3176dd78fdcf74cb916c886cf0d5590c402065b2a7202d06ad981fc0499350ac",
+          "dweb:/ipfs/QmdQufWxEjVssAmgLXGAFX9jNoP435gD9wyGmq5dzLqWYs"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ParaSwapTest.sol",
+    "id": 23223,
+    "exportedSymbols": {
+      "ParaSwapTest": [
+        23222
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:52:8",
+    "nodes": [
+      {
+        "id": 23221,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:8",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 23222,
+        "nodeType": "ContractDefinition",
+        "src": "26:26:8",
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ParaSwapTest",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          23222
+        ],
+        "name": "ParaSwapTest",
+        "nameLocation": "35:12:8",
+        "scope": 23223,
+        "usedErrors": []
+      }
+    ]
+  },
+  "id": 8
+}
