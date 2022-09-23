@@ -1,17 +1,17 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212202f4c4dfc2379dc0cec4eaa1241fed3763dfb2696de25ee39226955a67ab2457064736f6c63430008110033",
-    "sourceMap": "26:26:8:-:0;;;;;;;;;;;;;;;;;;;",
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220674ced3a37b18b20428e9360e1c0cf7c8f07e267010b1dc5bc8ce72ca4156aec64736f6c63430008110033",
+    "sourceMap": "26:26:9:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x6080604052600080fdfea26469706673582212202f4c4dfc2379dc0cec4eaa1241fed3763dfb2696de25ee39226955a67ab2457064736f6c63430008110033",
-    "sourceMap": "26:26:8:-:0;;;;;",
+    "object": "0x6080604052600080fdfea2646970667358221220674ced3a37b18b20428e9360e1c0cf7c8f07e267010b1dc5bc8ce72ca4156aec64736f6c63430008110033",
+    "sourceMap": "26:26:9:-:0;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ParaSwapTest.sol\":\"ParaSwapTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ParaSwapTest.sol\":{\"keccak256\":\"0xf94418bb6c2b587740c8ccc07e0142af7126a927dd7cb5ebb7116caa9c83c1f9\",\"urls\":[\"bzz-raw://3176dd78fdcf74cb916c886cf0d5590c402065b2a7202d06ad981fc0499350ac\",\"dweb:/ipfs/QmdQufWxEjVssAmgLXGAFX9jNoP435gD9wyGmq5dzLqWYs\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ParaSwapTest.sol\":\"ParaSwapTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@uniswap/v2-core/=lib/v2-core/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":v2-core/=lib/v2-core/contracts/\",\":v2-periphery/=lib/v2-periphery/contracts/\"]},\"sources\":{\"src/ParaSwapTest.sol\":{\"keccak256\":\"0xf94418bb6c2b587740c8ccc07e0142af7126a927dd7cb5ebb7116caa9c83c1f9\",\"urls\":[\"bzz-raw://3176dd78fdcf74cb916c886cf0d5590c402065b2a7202d06ad981fc0499350ac\",\"dweb:/ipfs/QmdQufWxEjVssAmgLXGAFX9jNoP435gD9wyGmq5dzLqWYs\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -32,8 +32,11 @@
     },
     "settings": {
       "remappings": [
+        ":@uniswap/v2-core/=lib/v2-core/",
         ":ds-test/=lib/forge-std/lib/ds-test/src/",
-        ":forge-std/=lib/forge-std/src/"
+        ":forge-std/=lib/forge-std/src/",
+        ":v2-core/=lib/v2-core/contracts/",
+        ":v2-periphery/=lib/v2-periphery/contracts/"
       ],
       "optimizer": {
         "enabled": true,
@@ -61,19 +64,19 @@
   },
   "ast": {
     "absolutePath": "src/ParaSwapTest.sol",
-    "id": 23223,
+    "id": 23242,
     "exportedSymbols": {
       "ParaSwapTest": [
-        23222
+        23241
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:52:8",
+    "src": "0:52:9",
     "nodes": [
       {
-        "id": 23221,
+        "id": 23240,
         "nodeType": "PragmaDirective",
-        "src": "0:24:8",
+        "src": "0:24:9",
         "literals": [
           "solidity",
           "^",
@@ -82,9 +85,9 @@
         ]
       },
       {
-        "id": 23222,
+        "id": 23241,
         "nodeType": "ContractDefinition",
-        "src": "26:26:8",
+        "src": "26:26:9",
         "abstract": false,
         "baseContracts": [],
         "canonicalName": "ParaSwapTest",
@@ -92,14 +95,14 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          23222
+          23241
         ],
         "name": "ParaSwapTest",
-        "nameLocation": "35:12:8",
-        "scope": 23223,
+        "nameLocation": "35:12:9",
+        "scope": 23242,
         "usedErrors": []
       }
     ]
   },
-  "id": 8
+  "id": 9
 }

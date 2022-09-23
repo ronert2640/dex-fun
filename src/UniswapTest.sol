@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import "v2-periphery/contracts/libraries/UniswapV2Library.sol";
+import "v2-periphery/libraries/UniswapV2Library.sol"; // This is a bug w/ Foundry... (The filepath should include /contracts/ ) ( Will adjust remapping )
 import "../interfaces/IERC20.sol";
 
 interface IUniswapV2Router {
@@ -49,7 +49,7 @@ contract UniswapTest {
         uint reserveIn, 
         uint reserveOut
     ) public {
-        uint amountOut = UniswapV2Library.getAmountOut(_amountIn, reserveIn, reserveOut);
+        //uint amountOut = UniswapV2Library.getAmountOut(_amountIn, reserveIn, reserveOut);
     }
 
 

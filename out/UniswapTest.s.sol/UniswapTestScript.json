@@ -42,13 +42,13 @@
     }
   ],
   "bytecode": {
-    "object": "0x60806040526000805460ff1916600117905534801561001d57600080fd5b5061014c8061002d6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505056fea2646970667358221220973dbe7f891dcc8df6c6ad9bd80f03bd94c370cfde7f131307411accfc598d6964736f6c63430008110033",
-    "sourceMap": "58:130:9:-:0;;;170:28:1;;;-1:-1:-1;;170:28:1;194:4;170:28;;;58:130:9;;;;;;;;;;;;;;;;",
+    "object": "0x60806040526000805460ff1916600117905534801561001d57600080fd5b5061014c8061002d6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505056fea2646970667358221220ef62f55a1ad3e8b57b6435d794747d344c3baa96a4dd649fe61222e3cf23eeaf64736f6c63430008110033",
+    "sourceMap": "58:130:8:-:0;;;170:28:1;;;-1:-1:-1;;170:28:1;194:4;170:28;;;58:130:8;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505056fea2646970667358221220973dbe7f891dcc8df6c6ad9bd80f03bd94c370cfde7f131307411accfc598d6964736f6c63430008110033",
-    "sourceMap": "58:130:9:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;101:26;;321:38:1;;250:64;321:38;;;;;-1:-1:-1;;;;;190:32:14;;;172:51;;160:2;145:18;321:38:1;;;;;;;;133:53:9;;;:::i;170:28:1:-;;;;;;;;;;;;399:14:14;;392:22;374:41;;362:2;347:18;170:28:1;234:187:14;133:53:9;165:14;;;-1:-1:-1;;;165:14:9;;;;250:64:1;;165:12:9;;:14;;;;;274:37:1;;165:14:9;;;;;;;274:37:1;250:64;165:14:9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;133:53::o",
+    "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505056fea2646970667358221220ef62f55a1ad3e8b57b6435d794747d344c3baa96a4dd649fe61222e3cf23eeaf64736f6c63430008110033",
+    "sourceMap": "58:130:8:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;101:26;;321:38:1;;250:64;321:38;;;;;-1:-1:-1;;;;;189:32:11;;;171:51;;159:2;144:18;321:38:1;;;;;;;;133:53:8;;;:::i;170:28:1:-;;;;;;;;;;;;398:14:11;;391:22;373:41;;361:2;346:18;170:28:1;233:187:11;133:53:8;165:14;;;-1:-1:-1;;;165:14:8;;;;250:64:1;;165:12:8;;:14;;;;;274:37:1;;165:14:8;;;;;;;274:37:1;250:64;165:14:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;133:53::o",
     "linkReferences": {}
   },
   "methodIdentifiers": {
@@ -57,7 +57,7 @@
     "setUp()": "0a9254e4",
     "vm()": "3a768463"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IS_SCRIPT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setUp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"vm\",\"outputs\":[{\"internalType\":\"contract Vm\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"script/UniswapTest.s.sol\":\"UniswapTestScript\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b\",\"dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87\",\"dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x1d562fd52631c5a4ca16e6befa43e66e443aa6b165c6b646ac2aa69974f94f56\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://16b4df99f5a54dde8090a1b97ffd53fd09afe44b496e7e46a64d24e7fb6fb2bd\",\"dweb:/ipfs/QmP5zKDXnHq24WE4K2u6gYdLnh2FBropJAdzzDxpZqW231\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f\",\"dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW\"]},\"script/UniswapTest.s.sol\":{\"keccak256\":\"0xad580f3910e2c61b28d2e527f32cda12a9da74621ceeddc3f871095ad5f5159e\",\"urls\":[\"bzz-raw://f8a41587ed3eeaa15a2d323bd35e12128ae93c15b58f41f6658c4960e60ca986\",\"dweb:/ipfs/QmSp2V8i2nwYQdSbFqEoMGnr5e6MSwPy13GazYLm9r4WNw\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IS_SCRIPT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setUp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"vm\",\"outputs\":[{\"internalType\":\"contract Vm\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"script/UniswapTest.s.sol\":\"UniswapTestScript\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@uniswap/v2-core/=lib/v2-core/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":v2-core/=lib/v2-core/contracts/\",\":v2-periphery/=lib/v2-periphery/contracts/\"]},\"sources\":{\"lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b\",\"dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87\",\"dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x1d562fd52631c5a4ca16e6befa43e66e443aa6b165c6b646ac2aa69974f94f56\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://16b4df99f5a54dde8090a1b97ffd53fd09afe44b496e7e46a64d24e7fb6fb2bd\",\"dweb:/ipfs/QmP5zKDXnHq24WE4K2u6gYdLnh2FBropJAdzzDxpZqW231\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f\",\"dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW\"]},\"script/UniswapTest.s.sol\":{\"keccak256\":\"0xad580f3910e2c61b28d2e527f32cda12a9da74621ceeddc3f871095ad5f5159e\",\"urls\":[\"bzz-raw://f8a41587ed3eeaa15a2d323bd35e12128ae93c15b58f41f6658c4960e60ca986\",\"dweb:/ipfs/QmSp2V8i2nwYQdSbFqEoMGnr5e6MSwPy13GazYLm9r4WNw\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -117,8 +117,11 @@
     },
     "settings": {
       "remappings": [
+        ":@uniswap/v2-core/=lib/v2-core/",
         ":ds-test/=lib/forge-std/lib/ds-test/src/",
-        ":forge-std/=lib/forge-std/src/"
+        ":forge-std/=lib/forge-std/src/",
+        ":v2-core/=lib/v2-core/contracts/",
+        ":v2-periphery/=lib/v2-periphery/contracts/"
       ],
       "optimizer": {
         "enabled": true,
@@ -186,34 +189,34 @@
   },
   "ast": {
     "absolutePath": "script/UniswapTest.s.sol",
-    "id": 27148,
+    "id": 23239,
     "exportedSymbols": {
       "Script": [
         2049
       ],
       "UniswapTestScript": [
-        27147
+        23238
       ],
       "Vm": [
-        10981
+        7072
       ],
       "console": [
-        19045
+        15136
       ],
       "console2": [
-        27109
+        23200
       ],
       "stdJson": [
         2409
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:188:9",
+    "src": "0:188:8",
     "nodes": [
       {
-        "id": 27130,
+        "id": 23221,
         "nodeType": "PragmaDirective",
-        "src": "0:24:9",
+        "src": "0:24:8",
         "literals": [
           "solidity",
           "^",
@@ -222,30 +225,30 @@
         ]
       },
       {
-        "id": 27131,
+        "id": 23222,
         "nodeType": "ImportDirective",
-        "src": "26:30:9",
+        "src": "26:30:8",
         "absolutePath": "lib/forge-std/src/Script.sol",
         "file": "forge-std/Script.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 27148,
+        "scope": 23239,
         "sourceUnit": 2050,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 27147,
+        "id": 23238,
         "nodeType": "ContractDefinition",
-        "src": "58:130:9",
+        "src": "58:130:8",
         "nodes": [
           {
-            "id": 27137,
+            "id": 23228,
             "nodeType": "FunctionDefinition",
-            "src": "101:26:9",
+            "src": "101:26:8",
             "body": {
-              "id": 27136,
+              "id": 23227,
               "nodeType": "Block",
-              "src": "125:2:9",
+              "src": "125:2:8",
               "statements": []
             },
             "functionSelector": "0a9254e4",
@@ -253,32 +256,32 @@
             "kind": "function",
             "modifiers": [],
             "name": "setUp",
-            "nameLocation": "110:5:9",
+            "nameLocation": "110:5:8",
             "parameters": {
-              "id": 27134,
+              "id": 23225,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "115:2:9"
+              "src": "115:2:8"
             },
             "returnParameters": {
-              "id": 27135,
+              "id": 23226,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "125:0:9"
+              "src": "125:0:8"
             },
-            "scope": 27147,
+            "scope": 23238,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 27146,
+            "id": 23237,
             "nodeType": "FunctionDefinition",
-            "src": "133:53:9",
+            "src": "133:53:8",
             "body": {
-              "id": 27145,
+              "id": 23236,
               "nodeType": "Block",
-              "src": "155:31:9",
+              "src": "155:31:8",
               "statements": [
                 {
                   "expression": {
@@ -286,33 +289,33 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 27140,
+                        "id": 23231,
                         "name": "vm",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 1817,
-                        "src": "165:2:9",
+                        "src": "165:2:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Vm_$10981",
+                          "typeIdentifier": "t_contract$_Vm_$7072",
                           "typeString": "contract Vm"
                         }
                       },
-                      "id": 27142,
+                      "id": 23233,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "168:9:9",
+                      "memberLocation": "168:9:8",
                       "memberName": "broadcast",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 10612,
-                      "src": "165:12:9",
+                      "referencedDeclaration": 6703,
+                      "src": "165:12:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
                         "typeString": "function () external"
                       }
                     },
-                    "id": 27143,
+                    "id": 23234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -321,16 +324,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "165:14:9",
+                    "src": "165:14:8",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 27144,
+                  "id": 23235,
                   "nodeType": "ExpressionStatement",
-                  "src": "165:14:9"
+                  "src": "165:14:8"
                 }
               ]
             },
@@ -339,20 +342,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "run",
-            "nameLocation": "142:3:9",
+            "nameLocation": "142:3:8",
             "parameters": {
-              "id": 27138,
+              "id": 23229,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "145:2:9"
+              "src": "145:2:8"
             },
             "returnParameters": {
-              "id": 27139,
+              "id": 23230,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "155:0:9"
+              "src": "155:0:8"
             },
-            "scope": 27147,
+            "scope": 23238,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -362,18 +365,18 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 27132,
+              "id": 23223,
               "name": "Script",
               "nameLocations": [
-                "88:6:9"
+                "88:6:8"
               ],
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 2049,
-              "src": "88:6:9"
+              "src": "88:6:8"
             },
-            "id": 27133,
+            "id": 23224,
             "nodeType": "InheritanceSpecifier",
-            "src": "88:6:9"
+            "src": "88:6:8"
           }
         ],
         "canonicalName": "UniswapTestScript",
@@ -381,15 +384,15 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          27147,
+          23238,
           2049
         ],
         "name": "UniswapTestScript",
-        "nameLocation": "67:17:9",
-        "scope": 27148,
+        "nameLocation": "67:17:8",
+        "scope": 23239,
         "usedErrors": []
       }
     ]
   },
-  "id": 9
+  "id": 8
 }
