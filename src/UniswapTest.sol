@@ -1,5 +1,6 @@
 pragma solidity ^0.8.17;
 
+import "v2-periphery/contracts/libraries/UniswapV2Library.sol";
 import "../interfaces/IERC20.sol";
 
 interface IUniswapV2Router {
@@ -30,8 +31,36 @@ contract UniswapTest {
 
     IERC20 dai = IERC20(DAI);
 
+/*
+    function swap(
+        uint _amountOut, 
+        uint amountInMax, 
+        address[] calldata _path,
+        address to, 
+        uint deadline
+    ) public {
+        uint[] memory = router.swapToken
+    }
+
+*/
+
+    function getAmountOut(
+        uint _amountIn, 
+        uint reserveIn, 
+        uint reserveOut
+    ) public {
+        uint amountOut = UniswapV2Library.getAmountOut(_amountIn, reserveIn, reserveOut);
+    }
+
+
     function getBalance() public view returns (uint256) {
         uint256 balance = dai.balanceOf(address(this));
         return balance;
     }
+
+    function getRouter() public view returns (address) {
+        return address(router);
+    }
+
+
 }

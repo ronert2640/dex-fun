@@ -93,7 +93,7 @@
     "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)": "38ed1739",
     "swapTokensForExactTokens(uint256,uint256,address[],address,uint256)": "8803dbee"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountOutMin\",\"type\":\"uint256\"},{\"internalType\":\"address[]\",\"name\":\"path\",\"type\":\"address[]\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"swapExactTokensForTokens\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"amounts\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amountOut\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountInMax\",\"type\":\"uint256\"},{\"internalType\":\"address[]\",\"name\":\"path\",\"type\":\"address[]\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"swapTokensForExactTokens\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"amounts\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/UniswapTest.sol\":\"IUniswapV2Router\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":v2-core/=lib/v2-core/contracts/\",\":v2-periphery/=lib/v2-periphery/contracts/\",\":v3-core/=lib/v3-core/\"]},\"sources\":{\"interfaces/IERC20.sol\":{\"keccak256\":\"0x8b9a55da60eb19bbc79ca38a71acecdba2f797551e36be33f5b2990f30c1bc2a\",\"urls\":[\"bzz-raw://895d918213a7f13ce60e1ad209913726314029fe951fe46d50b63fb29f5fbb47\",\"dweb:/ipfs/QmZrWEpFMuUYFqmU148T2XHSqbciCdqSF4xLgxohbLGfmQ\"]},\"src/UniswapTest.sol\":{\"keccak256\":\"0xd9d3e694a979242a933db20e7321e6941d9c543f51c8da6a2bc2fa6b4f29d711\",\"urls\":[\"bzz-raw://035b12caf584c01b70bd145d7fba12f7e36f5bb064ae857616666691784af4a1\",\"dweb:/ipfs/QmfYmgQiqWTfwohhC1ig9DkP5LkK4P9jnhvtFJDhcDxQfi\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountOutMin\",\"type\":\"uint256\"},{\"internalType\":\"address[]\",\"name\":\"path\",\"type\":\"address[]\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"swapExactTokensForTokens\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"amounts\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amountOut\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountInMax\",\"type\":\"uint256\"},{\"internalType\":\"address[]\",\"name\":\"path\",\"type\":\"address[]\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"swapTokensForExactTokens\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"amounts\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/UniswapTest.sol\":\"IUniswapV2Router\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":v2-core/=lib/v2-core/contracts/\",\":v2-periphery/=lib/v2-periphery/contracts/\",\":v3-core/=lib/v3-core/\"]},\"sources\":{\"interfaces/IERC20.sol\":{\"keccak256\":\"0x8b9a55da60eb19bbc79ca38a71acecdba2f797551e36be33f5b2990f30c1bc2a\",\"urls\":[\"bzz-raw://895d918213a7f13ce60e1ad209913726314029fe951fe46d50b63fb29f5fbb47\",\"dweb:/ipfs/QmZrWEpFMuUYFqmU148T2XHSqbciCdqSF4xLgxohbLGfmQ\"]},\"src/UniswapTest.sol\":{\"keccak256\":\"0x9b5828e4fdf026ab08bee055e20e0dbf5c3b1bdcbda203d4028e3026e2b7ad24\",\"urls\":[\"bzz-raw://a8f4c6803754d192593bc6a5c4e3a8ec6333c4a5e856f8ab67bc9fb230eb20a8\",\"dweb:/ipfs/QmZyyvALycP1hDTeCaMPTLnSH8xcAJNKw7kah6Kk8HJGZf\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -221,10 +221,10 @@
         "license": null
       },
       "src/UniswapTest.sol": {
-        "keccak256": "0xd9d3e694a979242a933db20e7321e6941d9c543f51c8da6a2bc2fa6b4f29d711",
+        "keccak256": "0x9b5828e4fdf026ab08bee055e20e0dbf5c3b1bdcbda203d4028e3026e2b7ad24",
         "urls": [
-          "bzz-raw://035b12caf584c01b70bd145d7fba12f7e36f5bb064ae857616666691784af4a1",
-          "dweb:/ipfs/QmfYmgQiqWTfwohhC1ig9DkP5LkK4P9jnhvtFJDhcDxQfi"
+          "bzz-raw://a8f4c6803754d192593bc6a5c4e3a8ec6333c4a5e856f8ab67bc9fb230eb20a8",
+          "dweb:/ipfs/QmZyyvALycP1hDTeCaMPTLnSH8xcAJNKw7kah6Kk8HJGZf"
         ],
         "license": null
       }
@@ -233,7 +233,7 @@
   },
   "ast": {
     "absolutePath": "src/UniswapTest.sol",
-    "id": 23348,
+    "id": 23359,
     "exportedSymbols": {
       "IERC20": [
         68
@@ -242,11 +242,11 @@
         23307
       ],
       "UniswapTest": [
-        23347
+        23358
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:1009:8",
+    "src": "0:1107:8",
     "nodes": [
       {
         "id": 23271,
@@ -266,7 +266,7 @@
         "absolutePath": "interfaces/IERC20.sol",
         "file": "../interfaces/IERC20.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 23348,
+        "scope": 23359,
         "sourceUnit": 69,
         "symbolAliases": [],
         "unitAlias": ""
@@ -710,13 +710,13 @@
         ],
         "name": "IUniswapV2Router",
         "nameLocation": "72:16:8",
-        "scope": 23348,
+        "scope": 23359,
         "usedErrors": []
       },
       {
-        "id": 23347,
+        "id": 23358,
         "nodeType": "ContractDefinition",
-        "src": "519:490:8",
+        "src": "519:588:8",
         "nodes": [
           {
             "id": 23310,
@@ -727,7 +727,7 @@
             "mutability": "constant",
             "name": "DAI",
             "nameLocation": "571:3:8",
-            "scope": 23347,
+            "scope": 23358,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -772,7 +772,7 @@
             "mutability": "constant",
             "name": "USDC",
             "nameLocation": "649:4:8",
-            "scope": 23347,
+            "scope": 23358,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -816,7 +816,7 @@
             "mutability": "mutable",
             "name": "router",
             "nameLocation": "730:6:8",
-            "scope": 23347,
+            "scope": 23358,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -951,7 +951,7 @@
             "mutability": "mutable",
             "name": "dai",
             "nameLocation": "844:3:8",
-            "scope": 23347,
+            "scope": 23358,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1084,7 +1084,7 @@
                             "referencedDeclaration": -28,
                             "src": "970:4:8",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_UniswapTest_$23347",
+                              "typeIdentifier": "t_contract$_UniswapTest_$23358",
                               "typeString": "contract UniswapTest"
                             }
                           }
@@ -1092,7 +1092,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_UniswapTest_$23347",
+                              "typeIdentifier": "t_contract$_UniswapTest_$23358",
                               "typeString": "contract UniswapTest"
                             }
                           ],
@@ -1251,7 +1251,133 @@
               ],
               "src": "910:9:8"
             },
-            "scope": 23347,
+            "scope": 23358,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 23357,
+            "nodeType": "FunctionDefinition",
+            "src": "1013:90:8",
+            "body": {
+              "id": 23356,
+              "nodeType": "Block",
+              "src": "1064:39:8",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 23353,
+                        "name": "router",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 23322,
+                        "src": "1089:6:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IUniswapV2Router_$23307",
+                          "typeString": "contract IUniswapV2Router"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_contract$_IUniswapV2Router_$23307",
+                          "typeString": "contract IUniswapV2Router"
+                        }
+                      ],
+                      "id": 23352,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "1081:7:8",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": {
+                        "id": 23351,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1081:7:8",
+                        "typeDescriptions": {}
+                      }
+                    },
+                    "id": 23354,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1081:15:8",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 23350,
+                  "id": 23355,
+                  "nodeType": "Return",
+                  "src": "1074:22:8"
+                }
+              ]
+            },
+            "functionSelector": "b0f479a1",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRouter",
+            "nameLocation": "1022:9:8",
+            "parameters": {
+              "id": 23347,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1031:2:8"
+            },
+            "returnParameters": {
+              "id": 23350,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 23349,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23357,
+                  "src": "1055:7:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 23348,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1055:7:8",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1054:9:8"
+            },
+            "scope": 23358,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
@@ -1264,11 +1390,11 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          23347
+          23358
         ],
         "name": "UniswapTest",
         "nameLocation": "528:11:8",
-        "scope": 23348,
+        "scope": 23359,
         "usedErrors": []
       }
     ]
