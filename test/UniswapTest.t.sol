@@ -1,4 +1,4 @@
-pragma solidity ^0.8.17;
+pragma solidity >=0.5.0;
 
 import "forge-std/Test.Sol";
 import "../src/UniswapTest.sol";

@@ -1,4 +1,4 @@
-pragma solidity ^0.8.17;
+pragma solidity >=0.5.0;
 
 import "v2-periphery/contracts/libraries/UniswapV2Library.sol";
 import "../interfaces/IERC20.sol";
