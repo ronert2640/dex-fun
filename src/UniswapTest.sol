@@ -31,25 +31,23 @@ contract UniswapTest {
 
     IERC20 dai = IERC20(DAI);
 
-/*
     function swap(
         uint _amountOut, 
-        uint amountInMax, 
-        address[] calldata _path,
-        address to, 
-        uint deadline
+        uint _amountInMax, 
+        address[] memory _path,
+        address _to, 
+        uint _deadline
     ) public {
-        uint[] memory = router.swapToken
+        uint[] memory amounts = router.swapTokensForExactTokens(_amountOut, _amountInMax, _path, _to, _deadline);
     }
 
-*/
 
     function getAmountOut(
         uint _amountIn, 
-        uint reserveIn, 
-        uint reserveOut
-    ) public {
-        //uint amountOut = UniswapV2Library.getAmountOut(_amountIn, reserveIn, reserveOut);
+        address[] memory s_path // list of token addresses
+    ) public returns (uint) {
+        //uint[] memory amountOut = UniswapV2Library.getAmountsOut(_amountIn, s_path);
+        //return amountOut;
     }
 
 

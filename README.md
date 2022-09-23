@@ -1,1 +1,1 @@
-# Having fun w/ some popular Dex's.
+# Having fun w/ some Dex's.
