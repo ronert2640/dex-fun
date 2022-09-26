@@ -37,7 +37,7 @@ contract UniswapTest {
         address[] memory _path,
         address _to, 
         uint _deadline
-    ) public {
+    ) public returns (uint[] memory) {
         uint[] memory amounts = router.swapTokensForExactTokens(_amountOut, _amountInMax, _path, _to, _deadline);
     }
 

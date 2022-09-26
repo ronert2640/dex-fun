@@ -37,8 +37,8 @@ contract UniswapTestTester is Test {
         // List of token address to swap
         address[] memory s_tokens = new address[](2);
         s_tokens[0] = address(DAI);
-        s_tokens[1] = address(USDC);
-        testContract.swap(1, 1, s_tokens, address(this), 100); // Using address(this) to test... add assetEq(balance(this) > 0)
+        s_tokens[1] = address(USDC); // Add some logs here
+        uint[] memory test = testContract.swap(1, 1, s_tokens, address(this), 1 minutes); // Using address(this) to test... add assetEq(balance(this) > 0)
     }
     /*
     function testAmountsOut() public {
