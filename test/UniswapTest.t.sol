@@ -34,7 +34,7 @@ contract UniswapTestTester is Test {
         uint256 balanceDai = testContract.getBalanceDai();
         uint256 balanceUsdc = testContract.getBalanceUsdc();
         assertEq(balanceDai, 1000000000000000000000); // Expect to have 1000 Dai
-        assertEq(balanceUsdc, 1000000000000000000000); // Expect to have 1000 Dai
+        assertEq(balanceUsdc, 1000000000000000000000); // Expect to have 1000 USDC
 
     }
 
@@ -45,16 +45,16 @@ contract UniswapTestTester is Test {
 
 
 
-    function testSwap() public { // TRANSFER_FROM_FAILED ( Prob because calling from external contract )
+    function testSwapUsdcToDai() public {  
         // List of token address to swap
         address[] memory s_tokens = new address[](2);
         s_tokens[0] = address(USDC); // Add some logs here
         s_tokens[1] = address(DAI);
         uint[] memory test = 
-        testContract.swap(  
-            3, // Amount In
-            2, // Amount Out Min
-            s_tokens, // Path (DAI > USDC)
+        testContract.swapUsdcToDai(  
+            10000, // Amount In
+            1000, // Amount Out Min
+            s_tokens, // Path [USDC, DAI]
             address(this), // This address
             block.timestamp + 1 minutes // Deadline
         );

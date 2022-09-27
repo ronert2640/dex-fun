@@ -26,21 +26,24 @@ contract UniswapTest {
     address public constant DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address public constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
 
+    address public constant UniswapRouter2 = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
     event _Swap(uint[] amounts);
 
-    IUniswapV2Router private router = IUniswapV2Router(address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D)); // Router 02 Address
+    IUniswapV2Router private router = IUniswapV2Router(UniswapRouter2); // Router 02 Address
 
 
     IERC20 dai = IERC20(DAI);
     IERC20 usdc = IERC20(USDC);
 
-    function swap(
+    function swapUsdcToDai( 
         uint _amountIn, 
         uint _amountOutMin, 
         address[] memory _path,
         address _to, 
         uint _deadline
     ) public returns (uint[] memory) {
+        // ERC20 Approve Token --> Router Address
+        usdc.approve(UniswapRouter2, _amountIn);
         uint[] memory amounts = router.swapExactTokensForTokens(
             _amountIn, 
             _amountOutMin, 
