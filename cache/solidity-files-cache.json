@@ -85,7 +85,7 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.sol/DSTest.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "test.sol/DSTest.json"
         }
       }
     },
@@ -129,7 +129,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Script.sol/Script.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Script.sol/Script.json"
         }
       }
     },
@@ -170,7 +170,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdJson.sol/stdJson.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "StdJson.sol/stdJson.json"
         }
       }
     },
@@ -319,7 +319,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vm.sol/Vm.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Vm.sol/Vm.json"
         }
       }
     },
@@ -358,7 +358,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console.sol/console.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "console.sol/console.json"
         }
       }
     },
@@ -397,7 +397,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console2.sol/console2.0.8.17.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "console2.sol/console2.json"
         }
       }
     },
@@ -651,8 +651,8 @@
       }
     },
     "src/UniswapTest.sol": {
-      "lastModificationDate": 1664234864427,
-      "contentHash": "56aeb44bd0956d9350fd95b0b0730da1",
+      "lastModificationDate": 1664240454957,
+      "contentHash": "93f70e4fbcee481a1b94b990865b0884",
       "sourceName": "src/UniswapTest.sol",
       "solcConfig": {
         "settings": {
@@ -746,8 +746,8 @@
       }
     },
     "test/UniswapTest.t.sol": {
-      "lastModificationDate": 1664234879678,
-      "contentHash": "9da6cb8cea68080b5268b693adb1a8ab",
+      "lastModificationDate": 1664241281319,
+      "contentHash": "e91aa8e1362c6ba7aa14d984dee15715",
       "sourceName": "test/UniswapTest.t.sol",
       "solcConfig": {
         "settings": {
