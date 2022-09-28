@@ -1,6 +1,7 @@
 # Having fun w/ some Dex's.
 
 So far:
+<br>
 	-> Playing around w/ different Dex's price aggregators to see which has the best exchange rates.
 		-> Currently built: 
 		<ul>
