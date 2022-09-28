@@ -11,6 +11,45 @@
     ]
   },
   "files": {
+    "interfaces/IAugustusSwapper.sol": {
+      "lastModificationDate": 1664399022331,
+      "contentHash": "8a1800e5be855f2c7bb2cdd634cd3cb5",
+      "sourceName": "interfaces/IAugustusSwapper.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.7.5",
+      "artifacts": {
+        "IAugustusSwapper": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IAugustusSwapper.sol/IAugustusSwapper.json"
+        }
+      }
+    },
     "interfaces/IERC20.sol": {
       "lastModificationDate": 1663898593024,
       "contentHash": "9b372f77a99f0407f7a8d72bed5ec903",
@@ -521,10 +560,10 @@
         }
       }
     },
-    "script/ParaSwapTest.s.sol": {
-      "lastModificationDate": 1663898450078,
-      "contentHash": "56888d19771c1ff6fa4e87c1975174b4",
-      "sourceName": "script/ParaSwapTest.s.sol",
+    "script/ParaSwap.s.sol": {
+      "lastModificationDate": 1664399022332,
+      "contentHash": "d6eafa588465cb097b5de519c36bdf05",
+      "sourceName": "script/ParaSwap.s.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -561,15 +600,15 @@
       ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
-        "ParaSwapTestScript": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwapTest.s.sol/ParaSwapTestScript.json"
+        "ParaSwapScript": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.s.sol/ParaSwapScript.json"
         }
       }
     },
-    "script/UniswapTest.s.sol": {
-      "lastModificationDate": 1663898450078,
-      "contentHash": "6cf6c3b9902224d6265a08dac5fab38f",
-      "sourceName": "script/UniswapTest.s.sol",
+    "script/Uniswap.s.sol": {
+      "lastModificationDate": 1664399162421,
+      "contentHash": "a663e96adac96cbdb6e71e2ef840111d",
+      "sourceName": "script/Uniswap.s.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -606,15 +645,15 @@
       ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
-        "UniswapTestScript": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "UniswapTest.s.sol/UniswapTestScript.json"
+        "UniswapScript": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Uniswap.s.sol/UniswapScript.json"
         }
       }
     },
-    "src/ParaSwapTest.sol": {
-      "lastModificationDate": 1663898450078,
-      "contentHash": "b53d88eb2bd8e6b25aab0d388ad1f5a1",
-      "sourceName": "src/ParaSwapTest.sol",
+    "src/ParaSwap.sol": {
+      "lastModificationDate": 1664399022333,
+      "contentHash": "9f6bafbff4772291c1daeb05e668dd17",
+      "sourceName": "src/ParaSwap.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -642,18 +681,24 @@
           "libraries": {}
         }
       },
-      "imports": [],
-      "versionRequirement": "^0.8.17",
+      "imports": [
+        "interfaces/IAugustusSwapper.sol",
+        "interfaces/IERC20.sol"
+      ],
+      "versionRequirement": ">=0.7.5",
       "artifacts": {
-        "ParaSwapTest": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwapTest.sol/ParaSwapTest.json"
+        "ITokenTransferProxy": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.sol/ITokenTransferProxy.json"
+        },
+        "ParaSwap": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.sol/ParaSwap.json"
         }
       }
     },
-    "src/UniswapTest.sol": {
-      "lastModificationDate": 1664317521048,
-      "contentHash": "408ab2385c6b70b8595a304f0fcf4b76",
-      "sourceName": "src/UniswapTest.sol",
+    "src/Uniswap.sol": {
+      "lastModificationDate": 1664401688242,
+      "contentHash": "806733f40af6cef28c44495ab45e6ba9",
+      "sourceName": "src/Uniswap.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -690,17 +735,17 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "IUniswapV2Router": {
-          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapTest.sol/IUniswapV2Router.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Uniswap.sol/IUniswapV2Router.json"
         },
-        "UniswapTest": {
-          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapTest.sol/UniswapTest.json"
+        "Uniswap": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Uniswap.sol/Uniswap.json"
         }
       }
     },
-    "test/ParaSwapTest.t.sol": {
-      "lastModificationDate": 1663898450078,
-      "contentHash": "a65f808457f2c71f10f82186c8a8ba87",
-      "sourceName": "test/ParaSwapTest.t.sol",
+    "test/ParaSwap.t.sol": {
+      "lastModificationDate": 1664399266694,
+      "contentHash": "edae9e47a23f2cc7f31fefa029dd36b7",
+      "sourceName": "test/ParaSwap.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -729,6 +774,8 @@
         }
       },
       "imports": [
+        "interfaces/IAugustusSwapper.sol",
+        "interfaces/IERC20.sol",
         "lib/forge-std/lib/ds-test/src/test.sol",
         "lib/forge-std/src/Script.sol",
         "lib/forge-std/src/StdJson.sol",
@@ -736,19 +783,19 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
-        "src/ParaSwapTest.sol"
+        "src/ParaSwap.sol"
       ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
-        "ParaSwapTestTester": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwapTest.t.sol/ParaSwapTestTester.json"
+        "ParaSwapTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.t.sol/ParaSwapTest.json"
         }
       }
     },
-    "test/UniswapTest.t.sol": {
-      "lastModificationDate": 1664317556867,
-      "contentHash": "e405d38575000387e35c731db3e295ea",
-      "sourceName": "test/UniswapTest.t.sol",
+    "test/Uniswap.t.sol": {
+      "lastModificationDate": 1664404737668,
+      "contentHash": "5c70b7ca0ed8bc85962712f5756dcd04",
+      "sourceName": "test/Uniswap.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -788,12 +835,12 @@
         "lib/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
         "lib/v2-periphery/contracts/libraries/SafeMath.sol",
         "lib/v2-periphery/contracts/libraries/UniswapV2Library.sol",
-        "src/UniswapTest.sol"
+        "src/Uniswap.sol"
       ],
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "UniswapTestTester": {
-          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapTest.t.sol/UniswapTestTester.json"
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Uniswap.t.sol/UniswapTestTester.json"
         }
       }
     }

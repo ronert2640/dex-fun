@@ -19,15 +19,22 @@ interface IUniswapV2Router {
         address to,
         uint deadline
     ) external returns (uint[] memory amounts);
+
+    function getAmountsOut(
+        uint256 amountIn, 
+        address[] calldata path
+    ) external view returns (uint256[] memory amounts);
+
 }
 
-contract UniswapTest {
+contract Uniswap {
 
     address public constant DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address public constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
 
     address public constant UniswapRouter2 = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
-    event _Swap(uint[] amounts);
+
+    event _Swap(uint[] path, address to);
 
     IUniswapV2Router private router = IUniswapV2Router(UniswapRouter2); // Router 02 Address
 
@@ -42,16 +49,16 @@ contract UniswapTest {
         address _to, 
         uint _deadline
     ) public returns (uint[] memory) {
-        // ERC20 Approve Token --> Router Address
+        // Approve ERC20 Token to Uniswap Router02 
         usdc.approve(UniswapRouter2, _amountIn);
-        uint[] memory amounts = router.swapExactTokensForTokens(
+        router.swapExactTokensForTokens( // Get amounts [USDC, DAI]
             _amountIn, 
             _amountOutMin, 
             _path, 
             _to, 
             _deadline
         );
-        emit _Swap(amounts);
+        //emit _Swap(_path, _to);
     }
 
 
@@ -59,8 +66,8 @@ contract UniswapTest {
         uint _amountIn, 
         address[] memory s_path // list of token addresses
     ) public returns (uint) {
-        //uint[] memory amountOut = UniswapV2Library.getAmountsOut(_amountIn, s_path);
-        //return amountOut;
+        uint[] memory amountOut = router.getAmountsOut(_amountIn, s_path);
+        return amountOut[s_path.length - 1];
     }
 
 
