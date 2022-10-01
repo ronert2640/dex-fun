@@ -11,6 +11,45 @@
     ]
   },
   "files": {
+    "interfaces/IAggregatorV3Interface.sol": {
+      "lastModificationDate": 1664646675145,
+      "contentHash": "c56ae2ceb93278f46bd61131437c7c90",
+      "sourceName": "interfaces/IAggregatorV3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IAggregatorV3Interface": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IAggregatorV3Interface.sol/IAggregatorV3Interface.json"
+        }
+      }
+    },
     "interfaces/IAugustusSwapper.sol": {
       "lastModificationDate": 1664399022331,
       "contentHash": "8a1800e5be855f2c7bb2cdd634cd3cb5",
@@ -85,7 +124,7 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "IERC20": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IERC20.sol/IERC20.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IERC20.sol/IERC20.json"
         }
       }
     },
@@ -124,7 +163,7 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.sol/DSTest.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.sol/DSTest.json"
         }
       }
     },
@@ -168,7 +207,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Script.sol/Script.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Script.sol/Script.json"
         }
       }
     },
@@ -209,7 +248,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdJson.sol/stdJson.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdJson.sol/stdJson.json"
         }
       }
     },
@@ -358,7 +397,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vm.sol/Vm.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vm.sol/Vm.json"
         }
       }
     },
@@ -397,7 +436,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console.sol/console.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console.sol/console.json"
         }
       }
     },
@@ -436,7 +475,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console2.sol/console2.0.8.17.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console2.sol/console2.json"
         }
       }
     },
@@ -605,6 +644,51 @@
         }
       }
     },
+    "script/PriceFeed.s.sol": {
+      "lastModificationDate": 1664647081676,
+      "contentHash": "cf577e3da60787313eddd34df891d287",
+      "sourceName": "script/PriceFeed.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "PriceFeedScript": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "PriceFeed.s.sol/PriceFeedScript.json"
+        }
+      }
+    },
     "script/Uniswap.s.sol": {
       "lastModificationDate": 1664399162421,
       "contentHash": "a663e96adac96cbdb6e71e2ef840111d",
@@ -692,6 +776,47 @@
         },
         "ParaSwap": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.sol/ParaSwap.json"
+        }
+      }
+    },
+    "src/PriceFeed.sol": {
+      "lastModificationDate": 1664646992978,
+      "contentHash": "7e0c57b517c88b09cb321c970956d04e",
+      "sourceName": "src/PriceFeed.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "interfaces/IAggregatorV3Interface.sol"
+      ],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "PriceFeed": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "PriceFeed.sol/PriceFeed.json"
         }
       }
     },
@@ -789,6 +914,56 @@
       "artifacts": {
         "ParaSwapTest": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "ParaSwap.t.sol/ParaSwapTest.json"
+        }
+      }
+    },
+    "test/PriceFeed.t.sol": {
+      "lastModificationDate": 1664647443823,
+      "contentHash": "45efc21e07bf20ff855f9331102c7ed3",
+      "sourceName": "test/PriceFeed.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "interfaces/IAggregatorV3Interface.sol",
+        "interfaces/IERC20.sol",
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "src/PriceFeed.sol"
+      ],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "PriceFeedTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "PriceFeed.t.sol/PriceFeedTest.json"
         }
       }
     },
